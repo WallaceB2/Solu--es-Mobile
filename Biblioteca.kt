@@ -1,3 +1,5 @@
+// Esse é o Link para o Play-Kotlin https://pl.kotl.in/1jb5z7uHq
+
 // Classe Livro
 class Livro(val titulo: String, val autor: String) {
     var disponivel: Boolean = true
@@ -58,7 +60,7 @@ class Biblioteca {
     }
 }
 
-// Função principal para testar o sistema
+// Função principal para testar o Sistema
 fun main() {
     // Criando instâncias de livros
     val livro1 = Livro("Senhor dos Aneis", "Tolkien")
@@ -87,3 +89,4 @@ fun main() {
     // Exibindo livros disponíveis após a devolução
     biblioteca.exibirLivrosDisponiveis()
 }
+
